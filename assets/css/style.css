@@ -30,12 +30,6 @@ span {
     
 }
 
-.carousel-indicators {
-    top: 210px;
-    box-sizing: border-box;
-   
-}
-
 .seccion-carousel {
     background-color: navy;
 
@@ -65,7 +59,8 @@ header {
   }
 
 .contacto {
-    background-color: thistle;
+    background-color: #ffffff;
+    color: navy;
 }
 
 .descripción {
