@@ -1,0 +1,69 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    background-color: midnightblue;
+}
+
+
+span {
+    font-family:'Lobster Two', cursive;
+}
+
+
+.subtitulo {
+    font-weight: 700;
+    font-size: 900;
+}
+
+.jumbotron {
+    background-image: url('../img/bg_hero-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    
+}
+
+.carousel-indicators {
+    top: 230px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: mintcream;
+}
+
+.seccion-carousel {
+    background-color: midnightblue;
+
+}
+
+.card {
+    border: none;
+}
+
+footer {
+    background-color: midnightblue;
+}
+
+.absoluta {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+}
+
+header {
+    position: relative; 
+}
+
+.fin a {
+    color: #ffffff;
+    text-decoration: none;
+  }
