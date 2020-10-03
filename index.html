@@ -62,7 +62,7 @@
 
 
         <!--seccion descripción de mi-->
-        <section id="perfil" class="container text-center my-5 d-none d-sm-block d-xs-block">
+        <section id="perfil" class="descripción container text-center my-5 d-none d-sm-block d-xs-block py-5">
         <h3 class="font-weight-bold">¡Soy soñadora, espiritual y viajera! <br> Me gustan los desafíos, tanto de vida como profesionales y a continuación quiero darte a conocer mis nuevos trabajos como diseñadora UX/UI. </h3>
         <div class="border-dark border-top my-2"></div>
 
@@ -119,65 +119,53 @@
 
         <!--seccion mis trabajos-->
         <section id="trabajos" class=" container-fluid seccion-carousel py-5"> 
-            <h2 class="text-center mb-2 font-weight-bold py-4 text-white display-4">MIS TRABAJOS</h2>
-            
-            <div class="row py-3">
-                <div class=" container py-2">
-                    <div id="blogcarousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#blogcarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#blogcarousel" data-slide-to="1"></li>
-                        </ol>
-            
-                        <div class="carousel-inner">
-                            <div class="carousel-item active text-center">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="assets/img/meet_coffee.png" alt="meet_coffee" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ingresa para conocer acerca de temas tecnológicos compartiendo un café">
-                                    </div>
-                                    
+            <div class="container">
+                <h2 class="text-center mb-2 font-weight-bold py-4 text-white display-4">MIS TRABAJOS</h2>
 
-                                    <div class="col-4">
-                                        <img src="assets/img/iguana_page.png" alt="iguana_page" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ingresa para conocer más acerca de las amigables iguanas.">
-                                    </div>
-
-                                    <div class="col-4">
-                                        <img src="assets/img/suricata.png" alt="suricata" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ingresa para probar los platos más apetitosos.">
-                                    </div>
-
-                                </div>
-                            </div>
-            
-                            <div class="carousel-item text-center">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <img src="assets/img/cuppon.png" alt="cuppon" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ingresa para obtener descuentos.">
-                                    </div>
-
-                                    <div class="col-4">
-                                        <img src="assets/img/ricomida.png" alt="ricomida" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ingresa para conocer las recetas más saludables.">
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/img/iguana_page.png" class="d-block w-100" alt="iguana_page">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/meet_coffee.png" class="d-block w-100" alt="meet_coffee">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/suricata.png" class="d-block w-100" alt="suricata">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/cuppon.png" class="d-block w-100" alt="cuppon">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/ricomida.png" class="d-block w-100" alt="ricomida">
+                      </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                
                 </div>
             </div>
         </section>
 
-        <!--seccion contacto-->
-        <section id="contacto" class="container-fluid py-5 contacto"> 
-            <h2 class="font-weight-bold text-center display-4">CONTACTO</h2>
-            
+            <!--seccion contacto-->
+            <section id="contacto" class="container-fluid py-5 contacto"> 
+                <div class="container">
 
-            <div class="card text-center py-5 my-5 contacto" style="">
-                <div class="card-body">
-                <h3 class="card-title display-4 font-weight-light">¿Quieres conocer más sobre mi?</h3>
-                <button type="button" class="btn btn-default border border-dark text-dark" data-toggle="tooltip" data-placement="bottom" title="Ingresar mail">Empezar</button>
+                    <h2 class="font-weight-bold text-center display-4">CONTACTO</h2>
+                    
+                    <div class="card text-center py-5 my-5 contacto" style="">
+                        <div class="card-body">
+                        <h3 class="card-title display-4 font-weight-light">¿Quieres conocer más sobre mi?</h3>
+                        <button type="button" class="btn btn-default border border-dark text-dark" data-toggle="tooltip" data-placement="bottom" title="Ingresar mail">Empezar</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
         </section>
 
         <!--seccion footer-->
@@ -200,7 +188,7 @@
                             <a href=""><i class="fab fa-twitter-square fa-4x"></i></a>
                         </div>
                         <div class="col-md-1 ml-3 fin">
-                            <i class="fab fa-facebook-square fa-4x"></i>
+                            <a href=""><i class="fab fa-facebook-square fa-4x"></i></a>
                         </div>
                                       
                     </div>

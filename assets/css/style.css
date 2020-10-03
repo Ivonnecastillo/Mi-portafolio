@@ -36,15 +36,6 @@ span {
    
 }
 
-.carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: mintcream;
-  
-  
-}
-
 .seccion-carousel {
     background-color: navy;
 
@@ -77,10 +68,8 @@ header {
     background-color: thistle;
 }
 
-.linea {
-    width: 300px;
-    margin-left: 20%;
-    margin-right: 20%;
+.descripción {
+    background-color: thistle;
 }
 
 
