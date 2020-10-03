@@ -2,8 +2,12 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <meta name="author:" content="ivonne Castillo
+        Garrido">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portafolio</title>
+        <link rel="shortcut icon"
+        type="image/png" href="favicon.png"/>
 
         <!--css de bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -19,6 +23,7 @@
     </head>
 
     <body>
+        <!--navegador-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><h1><span>Ivonne Castillo</span></h1></a>
@@ -27,35 +32,37 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
 
+                
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Sobre mi<span class="sr-only">(current)</span></a>
+                        <li class="nav-item d-none d-sm-block d-xs-block">
+                            <a class="nav-link text-white" href="#perfil">Sobre mi<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Experiencia</a>
+                            <a class="nav-link text-white" href="#experiencia">Experiencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Trabajos</a>
+                            <a class="nav-link text-white" href="#trabajos">Trabajos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contacto</a>
+                            <a class="nav-link text-white" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <header class="jumbotron jumbotron-fluid mt-5">
+        <!--seccion foto perfil-->
+        <header class="foto mt-5">
             <div class="container-fluid absoluta">
-                <h2 class="text-center text-white display-3">¡Hola!</h2>
-                <div class="border-dark border-top"></div>
-                <h1 class="text-center font-weight-bold text-white subtitulo display-2">Soy Ivonne</h1>
+                <h2 class="text-center text-white display-4">¡Hola!</h2>
+                <h1 class="text-center font-weight-bold text-white subtitulo display-3">Soy Ivonne</h1>
             </div>
         </header>
 
 
-        <section class="container  text-center my-5 d-none d-sm-block d-xs-block">
+        <!--seccion descripción de mi-->
+        <section id="perfil" class="container text-center my-5 d-none d-sm-block d-xs-block">
         <h3 class="font-weight-bold">¡Soy soñadora, espiritual y viajera! <br> Me gustan los desafíos, tanto de vida como profesionales y a continuación quiero darte a conocer mis nuevos trabajos como diseñadora UX/UI. </h3>
         <div class="border-dark border-top my-2"></div>
 
@@ -84,9 +91,10 @@
             </div>
         </section>
 
-        <section>
+        <!--seccion mi experiencia-->
+        <section id="experiencia">
+        <div class="container-fluid">
             <h2 class="text-center mb-2 font-weight-bold display-4">MI EXPERIENCIA</h2>
-            <div class="border-dark border-top my-2"></div>
             <div class="container py-5">
                 <div class="card-deck">
                     <div class="card">
@@ -106,13 +114,14 @@
                     </div>
                 </div>
             </div>
+        </div>
         </section>
 
-        <section class=" container-fluid seccion-carousel py-3 my-2"> 
+        <!--seccion mis trabajos-->
+        <section id="trabajos" class=" container-fluid seccion-carousel py-5"> 
             <h2 class="text-center mb-2 font-weight-bold py-4 text-white display-4">MIS TRABAJOS</h2>
-            <div class="border-dark border-top my-2"></div>
-
-            <div class="row py-3 mb-5">
+            
+            <div class="row py-3">
                 <div class=" container py-2">
                     <div id="blogcarousel" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -124,16 +133,16 @@
                             <div class="carousel-item active text-center">
                                 <div class="row">
                                     <div class="col-4">
-                                        <img src="assets/img/meet_coffee.png" alt="meet_coffee" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ricomida Champiñones">
+                                        <img src="assets/img/meet_coffee.png" alt="meet_coffee" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ingresa para conocer acerca de temas tecnológicos compartiendo un café">
                                     </div>
                                     
 
                                     <div class="col-4">
-                                        <img src="assets/img/iguana_page.png" alt="iguana_page" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ricomida Pizzas">
+                                        <img src="assets/img/iguana_page.png" alt="iguana_page" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ingresa para conocer más acerca de las amigables iguanas.">
                                     </div>
 
                                     <div class="col-4">
-                                        <img src="assets/img/suricata.png" alt="suricata" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ricomida Masas">
+                                        <img src="assets/img/suricata.png" alt="suricata" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ingresa para probar los platos más apetitosos.">
                                     </div>
 
                                 </div>
@@ -142,11 +151,11 @@
                             <div class="carousel-item text-center">
                                 <div class="row">
                                     <div class="col-4">
-                                        <img src="assets/img/cuppon.png" alt="cuppon" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ricomida Pizzas variados sabores">
+                                        <img src="assets/img/cuppon.png" alt="cuppon" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ingresa para obtener descuentos.">
                                     </div>
 
                                     <div class="col-4">
-                                        <img src="assets/img/ricomida.png" alt="ricomida" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ricomida ingredientes">
+                                        <img src="assets/img/ricomida.png" alt="ricomida" width="100%" data-toggle="tooltip" data-placement="bottom" title="Ingresa para conocer las recetas más saludables.">
                                     </div>
 
                                 </div>
@@ -157,26 +166,28 @@
             </div>
         </section>
 
-        <section class="container py-5"> 
+        <!--seccion contacto-->
+        <section id="contacto" class="container-fluid py-5 contacto"> 
             <h2 class="font-weight-bold text-center display-4">CONTACTO</h2>
-            <div class="border-dark border-top my-2"></div>
+            
 
-            <div class="card text-center py-5 my-5" style="">
+            <div class="card text-center py-5 my-5 contacto" style="">
                 <div class="card-body">
                 <h3 class="card-title display-4 font-weight-light">¿Quieres conocer más sobre mi?</h3>
-                <a href="#" class="btn btn-primary my-5">Comenzar</a>
+                <button type="button" class="btn btn-default border border-dark text-dark" data-toggle="tooltip" data-placement="bottom" title="Ingresar mail">Empezar</button>
                 </div>
             </div>
 
         </section>
 
-        <footer>
-            <div class="container-fluid pb-2 text-white">
-                <div class="container py-5 my-5">
+        <!--seccion footer-->
+        <footer id="final">
+            <div class="container-fluid pb-2 text-white text-center">
+                <div class="container py-5">
 
                     <div class="row mt-5">
                         <div class="col-12 col-md-5 aling-self-center">
-                            <h1 class="display-3 text-left font-weight-bold mt-2"><span>Ivonne</span></h1>
+                            <h1 class="display-4 text-center font-weight-bold mt-2"><span>Mis redes</span></h1>
                         </div>   
 
                         <div class="col-md-1 ml-3 fin">
