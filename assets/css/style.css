@@ -67,4 +67,11 @@ header {
     background-color: thistle;
 }
 
+.titulo {
+    font-weight: 900;
+    font-size: 7vh;
+}
 
+.sobre-mi {
+    font-size: 6vh;
+}
